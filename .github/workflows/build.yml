@@ -9,7 +9,7 @@ steps:
 - name: Unzip Project
 # NOTE: Make sure your exact zip file name is inside the quotes below!
 run: |
-unzip "faucet-tracker-pro-oct-9-2026-12-YOUR-FULL-FILE-NAME.zip"
+unzip "faucet-tracker-pro-oct-9-2026-12-31-38-am (1).zip"
 mv faucet-tracker-pro-* project
 - name: Setup Java
 uses: actions/setup-java@v4
