@@ -25,6 +25,7 @@ jobs:
         run: |
           cd project
           touch .env
+          chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
           
 
