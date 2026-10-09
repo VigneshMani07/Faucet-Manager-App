@@ -25,7 +25,8 @@ jobs:
         run: |
           cd project
           touch .env
-          gradlew assembleDebug --no-daemon
+          ./gradlew assembleDebug --no-daemon
+          
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
